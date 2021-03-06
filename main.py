@@ -13,7 +13,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
 )
 from youtube_search import YoutubeSearch
-from config import owner_id, bot_token, sudo_chat_id
+from sample_config import owner_id, bot_token, sudo_chat_id
 from functions import (
     convert_seconds,
     time_to_seconds,
