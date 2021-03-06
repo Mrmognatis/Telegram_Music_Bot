@@ -1,3 +1,3 @@
-worker: python3 -m Telegram_VC_Bot
-web: python3 -m Telegram_VC_Bot
+worker: python3 -m main
+web: python3 -m main
 ps:scale worker=1
